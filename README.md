@@ -19,7 +19,7 @@ Below are some of the projects I've worked on:
 
 Check out my latest blog posts:
 
-1. [Spacehey]([https://www.myawesomeblog.com/clean-code-tips](https://spacehey.com/lonelyperson))
+1. [Spacehey](https://spacehey.com/lonelyperson)
 2. [N/a](Nothing)
 3. [N/a](Nothing)
 
