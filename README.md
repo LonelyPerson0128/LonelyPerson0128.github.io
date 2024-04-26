@@ -7,7 +7,7 @@
 <body>
 
 <h2 style="background-color:firebrick;">About me!</h2> 
-<p style="background-color:red;">I Like to listen to music ofc! Eat food ;-; Yes im guilty of it! also love to post on insa and kinda code on spacehey!!</p>
+<p style="color:white;">I Like to listen to music ofc! Eat food ;-; Yes im guilty of it! also love to post on insa and kinda code on spacehey!!</p>
 
 
 <h3 style="background-color:firebrick;">Type of music I love!</h3>
