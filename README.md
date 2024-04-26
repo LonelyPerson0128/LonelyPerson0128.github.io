@@ -1,17 +1,16 @@
-# Welcome to my page XD 
+<h1 style="background-color:firebrick;">Welcome to my page!</h1> 
 <DOCTYPE html>
 <html>
 <head>
-<Title>Myplace</Title>
 <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
 </head>
 <body>
 
-<h1 style="background-color:firebrick;">About me!</h1> 
+<h2 style="background-color:firebrick;">About me!</h2> 
 <p style="background-color:red;">I Like to listen to music ofc! Eat food ;-; Yes im guilty of it! also love to post on insa and kinda code on spacehey!!</p>
 
 
-<h2 style="background-color:firebrick;">Type of music I love!</h2>
+<h3 style="background-color:firebrick;">Type of music I love!</h3>
 <p style="background-color:red;">Bands: Green day (for life XD), Ultra Q, Misfits, And My chemical romance
   Artist: Demi lovato, Billie joe armstrong, Britany spears, 6arelyhuman, and Britany manson
   Theres probaly more, but I dont remember right now XD, but if u want to listen to my music! Heres the playlist!
