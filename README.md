@@ -33,7 +33,7 @@
 
 <footer>
   <p>Author: Lonelyperson</p>
-  <p><a href="https://spacehey.com/lonelyperson">hege@example.com</a></p>
+  <p><a href="https://spacehey.com/lonelyperson">Spacehey!-Lonelyperson</a></p>
 </footer>
 
 
