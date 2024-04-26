@@ -2,7 +2,8 @@
 <DOCTYPE html>
 <html>
 <head>
-
+<Title>Myplace</Title>
+<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
 </head>
 <body>
 
