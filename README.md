@@ -11,7 +11,7 @@
 
 
 <h3 style="background-color:firebrick;">Type of music I love!</h3>
-<p style="background-color:red;">Bands: Green day (for life XD), Ultra Q, Misfits, And My chemical romance
+<p style="color:white;">Bands: Green day (for life XD), Ultra Q, Misfits, And My chemical romance
   Artist: Demi lovato, Billie joe armstrong, Britany spears, 6arelyhuman, and Britany manson
   Theres probaly more, but I dont remember right now XD, but if u want to listen to my music! Heres the playlist!
 </p>
