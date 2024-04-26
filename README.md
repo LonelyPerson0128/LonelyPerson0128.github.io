@@ -19,13 +19,27 @@
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/2Oeyrt4oIYWmsTG3YZkkuc?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 </body>
-
+<!-- This is a comment -->
 <style>
   Body{
   Background-image: url('https://i.pinimg.com/564x/3e/26/5f/3e265f3b290a7e8615a5bb7194cabe78.jpg');
      
   }
   </style>
+<!-- The background of my page! change it here! -->
+
+
+
+
+<footer>
+  <p>Author: Lonelyperson</p>
+  <p><a href="https://spacehey.com/lonelyperson">hege@example.com</a></p>
+</footer>
+
+
+
+
+
 
 
 </html>
