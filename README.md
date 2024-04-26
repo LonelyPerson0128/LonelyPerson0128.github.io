@@ -21,7 +21,9 @@
 </body>
 
 <style>
-  Background color: red;
+  Body{
+  Background-color: red;
+  }
   </style>
 
 
