@@ -1,31 +1,22 @@
-```markdown
-# My website i trying to fix XC
+# Welcome to my page XD 
+<DOCTYPE html>
+<html>
+<head>
 
-Welcome to my awesome website! This site is all about sharing my thoughts, projects, and ideas with the world.
+</head>
+<body>
 
-## About Me
+<h1>About me!</h1> 
+<p>I Like to listen to music ofc! Eat food ;-; Yes im guilty of it! also love to post on insa and kinda code on spacehey!!</p>
+</p>
 
-I am a web developer who is trying to learn how to code :3. My skills are still in progress im trying everything x-x.
+<h2>Type of music I love!</h2>
+<p>Bands: Green day (for life XD), Ultra Q, Misfits, And My chemical romance
+  Artist: Demi lovato, Billie joe armstrong, Britany spears, 6arelyhuman, and Britany manson
+  Theres probaly more, but I dont remember right now XD, but if u want to listen to my music! Heres the playlist!
+</p>
 
-## Projects
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/2Oeyrt4oIYWmsTG3YZkkuc?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
-Below are some of the projects I've worked on:
-
-- [Project 1](N/a): Nothing yet.
-- [Project 2](N/a):  Nothing yet.
-- [Project 3](N/a):  Nothing yet.
-
-## Blog
-
-Check out my latest blog posts:
-
-1. [Spacehey](https://spacehey.com/lonelyperson)
-2. [N/a](Nothing)
-3. [N/a](Nothing)
-
-## Contact
-
-Feel free to reach out to me via email at contact@myawesomewebsite.com or connect with me on [LinkedIn](https://www.linkedin.com/in/myusername).
-
-Thank you for visiting my website!
-```
+</body>
+</html>
