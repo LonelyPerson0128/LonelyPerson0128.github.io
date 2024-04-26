@@ -32,7 +32,7 @@
 
 
 <footer>
-  <p>Author: Lonelyperson</p>
+  <p style="color:white;">Author: Lonelyperson</p>
   <p><a href="https://spacehey.com/lonelyperson">Spacehey!-Lonelyperson</a></p>
 </footer>
 
