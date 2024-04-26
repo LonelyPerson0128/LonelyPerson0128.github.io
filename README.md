@@ -22,7 +22,8 @@
 
 <style>
   Body{
-  Background-color: red;
+  Background-image: url('https://i.pinimg.com/564x/b3/6a/51/b36a5138e42413aa739fab192baa2d95.jpg');
+     background-repeat: no-repeat;
   }
   </style>
 
