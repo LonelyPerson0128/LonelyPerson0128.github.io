@@ -46,51 +46,75 @@
 
 </html>
 
-<!DOCTYPE html>
-<html lang="en">
+Here is a basic HTML code that includes a button, tabs for switching content, and the ability to input music/ album art:
 
+```html
+<!DOCTYPE html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Music Player</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <style>
-        .tab {
+        .tab_content {
             display: none;
         }
     </style>
 </head>
-
 <body>
-    <button id="tab1Button" onclick="openTab('tab1')">Favorite Music</button>
-    <button id="tab2Button" onclick="openTab('tab2')">Add Music</button>
 
-    <div id="tab1" class="tab" >
-        <!-- Add favorite music and album art here -->
-        <img src="album_art.jpg" alt="Album Art">
-        <p>Artist: Artist Name</p>
-        <p>Song: Song Title</p>
+<div class="container">
+    <button id="addMusicButton" class="btn btn-primary">Add Music</button>
+    <br><br>
+
+    <div class="row">
+        <div class="col-md-3">
+            <ul class="nav flex-column nav-pills">
+                <li class="nav-item">
+                    <a class="nav-link active" data-toggle="pill" href="#music1">Music 1</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="pill" href="#music2">Music 2</a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-md-9">
+            <div class="tab-content">
+                <div id="music1" class="tab-pane active tab_content">
+                    <!-- Here you can add content for Music 1 -->
+                </div>
+                <div id="music2" class="tab-pane tab_content">
+                    <!-- Here you can add content for Music 2 -->
+                </div>
+            </div>
+        </div>
     </div>
+</div>
 
-    <div id="tab2" class="tab">
-        <!-- Code to add new music or edit existing music -->
-        <!-- Example: -->
-        <input type="text" placeholder="Artist Name">
-        <input type="text" placeholder="Song Title">
-        <input type="file">
-    </div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+    $(document).ready(function() {
+        $('#addMusicButton').click(function() {
+            var artist = prompt('Enter Artist Name:');
+            var music = prompt('Enter Music Name:');
+            var albumArt = prompt('Enter Album Art URL:');
 
-    <script>
-        function openTab(tabName) {
-            var tabs = document.getElementsByClassName('tab');
-            for (var i = 0; i < tabs.length; i++) {
-                tabs[i].style.display = 'none';
-            }
-            document.getElementById(tabName).style.display = 'block';
-        }
-    </script>
+            var content = '<div>' +
+                          '<img src="' + albumArt + '" alt="Album Art">' +
+                          '<h4>' + artist + '</h4>' +
+                          '<p>' + music + '</p>' +
+                          '</div>';
+
+            $('.tab_content').append(content);
+        });
+
+        $('.nav-link').click(function() {
+            $('.tab_content').hide();
+            $($(this).attr('href')).show();
+        });
+    });
+</script>
+
 </body>
-
 </html>
-
+```
 
