@@ -74,24 +74,23 @@
         .image-container:hover .image-zoom {
             display: block;
         }
+
+        .delete-btn {
+            margin-top: 10px;
+            cursor: pointer;
+        }
     </style>
 </head>
 <body>
 
 <div class="container">
-    <button id="addMusicButton" class="btn btn-primary">Add Music</button>
-    <br><br>
-
     <div class="row">
         <div class="col-md-3">
-            <ul class="nav nav-tabs">
-                <li class="nav-item">
-                    <a class="nav-link active" data-bs-toggle="tab" href="#music1">Music 1</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" data-bs-toggle="tab" href="#music2">Music 2</a>
-                </li>
-            </ul>
+            <button id="addMusicButton" class="btn btn-primary">Add Music</button>
+            <br><br>
+            <div class="list-group" id="musicList">
+                <!-- Music entries will appear here -->
+            </div>
         </div>
         <div class="col-md-9">
             <div class="tab-content">
@@ -110,26 +109,37 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
 <script>
     $(document).ready(function() {
+        var musicIndex = 1;
+
         $('#addMusicButton').click(function() {
             var artist = prompt('Enter Artist Name:');
             var music = prompt('Enter Music Name:');
             var albumArt = prompt('Enter Album Art URL:');
 
-            var content = '<div class="image-container">' +
+            var content = '<div class="music-entry" data-index="' + musicIndex + '">' +
+                          '<div class="image-container">' +
                           '<img src="' + albumArt + '" alt="Album Art">' +
                           '<div class="image-zoom">' +
                           '<h4>' + artist + '</h4>' +
                           '<p>' + music + '</p>' +
                           '</div>' +
+                          '</div>' +
+                          '<button class="delete-btn" onclick="deleteMusic(' + musicIndex + ')">Delete</button>' +
                           '</div>';
 
-            $('.tab_content').append(content);
+            $('#musicList').append(content);
+
+            musicIndex++;
         });
 
-        $('.nav-link').click(function() {
+        $(document).on('click', '.music-entry', function() {
             $('.tab_content').hide();
             $($(this).attr('href')).show();
         });
+
+        deleteMusic = function(index) {
+            $('.music-entry[data-index="' + index + '"]').remove();
+        };
     });
 </script>
 
