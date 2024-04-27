@@ -46,7 +46,7 @@
 
 </html>
 
-Here is a basic HTML code that includes a button, tabs for switching content, and the ability to input music/ album art:
+
 
 ```html
 <!DOCTYPE html>
