@@ -48,3 +48,90 @@
 
 
 
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/5.1.0/css/bootstrap.min.css">
+    <style>
+        .tab_content {
+            display: none;
+        }
+
+        .image-container {
+            position: relative;
+            display: inline-block;
+        }
+
+        .image-zoom {
+            display: none;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 999;
+        }
+
+        .image-container:hover .image-zoom {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <button id="addMusicButton" class="btn btn-primary">Add Music</button>
+    <br><br>
+
+    <div class="row">
+        <div class="col-md-3">
+            <ul class="nav nav-tabs">
+                <li class="nav-item">
+                    <a class="nav-link active" data-bs-toggle="tab" href="#music1">Music 1</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-bs-toggle="tab" href="#music2">Music 2</a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-md-9">
+            <div class="tab-content">
+                <div id="music1" class="tab-pane active tab_content">
+                    <!-- Here you can add content for Music 1 -->
+                </div>
+                <div id="music2" class="tab-pane tab_content">
+                    <!-- Here you can add content for Music 2 -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+    $(document).ready(function() {
+        $('#addMusicButton').click(function() {
+            var artist = prompt('Enter Artist Name:');
+            var music = prompt('Enter Music Name:');
+            var albumArt = prompt('Enter Album Art URL:');
+
+            var content = '<div class="image-container">' +
+                          '<img src="' + albumArt + '" alt="Album Art">' +
+                          '<div class="image-zoom">' +
+                          '<h4>' + artist + '</h4>' +
+                          '<p>' + music + '</p>' +
+                          '</div>' +
+                          '</div>';
+
+            $('.tab_content').append(content);
+        });
+
+        $('.nav-link').click(function() {
+            $('.tab_content').hide();
+            $($(this).attr('href')).show();
+        });
+    });
+</script>
+
+</body>
+</html>
