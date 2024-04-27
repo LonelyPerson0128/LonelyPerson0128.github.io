@@ -69,6 +69,10 @@
             left: 50%;
             transform: translate(-50%, -50%);
             z-index: 999;
+            background: rgba(255, 255, 255, 0.8);
+            padding: 10px;
+            text-align: center;
+            border-radius: 5px;
         }
 
         .image-container:hover .image-zoom {
@@ -113,15 +117,20 @@
 
         $('#addMusicButton').click(function() {
             var artist = prompt('Enter Artist Name:');
-            var music = prompt('Enter Music Name:');
+            var musicName = prompt('Enter Music Name:');
             var albumArt = prompt('Enter Album Art URL:');
+            var audioLink = prompt('Enter Audio Link (Spotify, YouTube, etc.):');
 
             var content = '<div class="music-entry" data-index="' + musicIndex + '">' +
                           '<div class="image-container">' +
                           '<img src="' + albumArt + '" alt="Album Art">' +
                           '<div class="image-zoom">' +
                           '<h4>' + artist + '</h4>' +
-                          '<p>' + music + '</p>' +
+                          '<p>' + musicName + '</p>' +
+                          '<audio controls>' +
+                          '<source src="' + audioLink + '" type="audio/mpeg">' +
+                          'Your browser does not support the audio element.' +
+                          '</audio>' +
                           '</div>' +
                           '</div>' +
                           '<button class="delete-btn" onclick="deleteMusic(' + musicIndex + ')">Delete</button>' +
