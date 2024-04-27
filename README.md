@@ -31,6 +31,8 @@
 
 
 
+
+
 <footer>
   <p style="color:white;">Author: Lonelyperson</p>
   <p><a href="https://spacehey.com/lonelyperson">Spacehey!-Lonelyperson</a></p>
@@ -41,6 +43,53 @@
 
 
 
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <style>
+        .tab {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <button id="tab1Button" onclick="openTab('tab1')">Favorite Music</button>
+    <button id="tab2Button" onclick="openTab('tab2')">Add Music</button>
+
+    <div id="tab1" class="tab" >
+        <!-- Add favorite music and album art here -->
+        <img src="album_art.jpg" alt="Album Art">
+        <p>Artist: Artist Name</p>
+        <p>Song: Song Title</p>
+    </div>
+
+    <div id="tab2" class="tab">
+        <!-- Code to add new music or edit existing music -->
+        <!-- Example: -->
+        <input type="text" placeholder="Artist Name">
+        <input type="text" placeholder="Song Title">
+        <input type="file">
+    </div>
+
+    <script>
+        function openTab(tabName) {
+            var tabs = document.getElementsByClassName('tab');
+            for (var i = 0; i < tabs.length; i++) {
+                tabs[i].style.display = 'none';
+            }
+            document.getElementById(tabName).style.display = 'block';
+        }
+    </script>
+</body>
 
 </html>
 
