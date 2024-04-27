@@ -47,7 +47,6 @@
 </html>
 
 
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -114,12 +113,12 @@
 <script>
     $(document).ready(function() {
         var musicIndex = 1;
-
+        
         $('#addMusicButton').click(function() {
             var artist = prompt('Enter Artist Name:');
             var musicName = prompt('Enter Music Name:');
             var albumArt = prompt('Enter Album Art URL:');
-            var audioLink = prompt('Enter Audio Link (Spotify, YouTube, etc.):');
+            var spotifyEmend = prompt('Enter Spotify Playlist Embed Code:');
 
             var content = '<div class="music-entry" data-index="' + musicIndex + '">' +
                           '<div class="image-container">' +
@@ -127,17 +126,14 @@
                           '<div class="image-zoom">' +
                           '<h4>' + artist + '</h4>' +
                           '<p>' + musicName + '</p>' +
-                          '<audio controls>' +
-                          '<source src="' + audioLink + '" type="audio/mpeg">' +
-                          'Your browser does not support the audio element.' +
-                          '</audio>' +
+                          '<iframe src="' + spotifyEmend + '" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>' +
                           '</div>' +
                           '</div>' +
                           '<button class="delete-btn" onclick="deleteMusic(' + musicIndex + ')">Delete</button>' +
                           '</div>';
-
+            
             $('#musicList').append(content);
-
+            
             musicIndex++;
         });
 
