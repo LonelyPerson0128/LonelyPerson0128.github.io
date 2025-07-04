@@ -125,6 +125,13 @@
                         </a>
                         <p class="text-sm text-gray-300">Self portrait I drew of myself. I love to draw myself A lot lolz XD!</p>
                     </div>
+<div class="image-item bg-gray-800 p-4 rounded-lg shadow-md text-center">
+    <a href="https://i.ibb.co/xSmy656y/IMG20250608180014.jpg" target="_blank" class="block">
+        <img src="https://i.ibb.co/xSmy656y/IMG20250608180014.jpg" alt="A description of this image" class="w-full h-auto rounded-lg mb-3 cursor-pointer object-cover">
+    </a>
+    <p class="text-sm text-gray-300">Me and my friend in a GoodwillXD! We were taking dumb pics with the suits XD!</p>
+</div>
+                    
                 </div>
             </div>
 
