@@ -11,7 +11,7 @@
     <style>
         /* Custom styles for the Inter font and basic body styling */
         body {
-            font-family: 'Inter', sans-serif;
+            font-family: "Creepster", system-ui;
             /* User's background image */
             background-image: url('https://i.pinimg.com/originals/2e/c8/1e/2ec81e1517a75592dd347207fa748d78.gif');
             background-size: cover; /* Ensure the image covers the entire background */
