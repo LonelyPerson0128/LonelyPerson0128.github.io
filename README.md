@@ -109,23 +109,20 @@
                         <a href="https://via.placeholder.com/600x400/FF0000/FFFFFF?text=My+First+Post" target="_blank" class="block">
                             <img src="https://via.placeholder.com/300x200/FF0000/FFFFFF?text=My+First+Post" alt="Description of my first post" class="w-full h-auto rounded-lg mb-3 cursor-pointer object-cover">
                         </a>
-                        <p class="text-sm text-gray-300">This is a description of my first amazing photo! Click to see more.</p>
+                        <p class="text-sm text-gray-300">This is my very first post! Exploring new things. Click the image to see it bigger!</p>
                     </div>
-
                     <div class="image-item bg-gray-800 p-4 rounded-lg shadow-md text-center">
-                        <a href="https://via.placeholder.com/600x400/0000FF/FFFFFF?text=Travel+Adventures" target="_blank" class="block">
-                            <img src="https://via.placeholder.com/300x200/0000FF/FFFFFF?text=Travel+Adventures" alt="Description of my travel adventures" class="w-full h-auto rounded-lg mb-3 cursor-pointer object-cover">
+                        <a href="https://via.placeholder.com/600x400/00FF00/000000?text=Nature+Walk" target="_blank" class="block">
+                            <img src="https://via.placeholder.com/300x200/00FF00/000000?text=Nature+Walk" alt="Picture from a nature walk" class="w-full h-auto rounded-lg mb-3 cursor-pointer object-cover">
                         </a>
-                        <p class="text-sm text-gray-300">Here are some memories from my recent travels!</p>
+                        <p class="text-sm text-gray-300">Enjoyed a peaceful nature walk today. So refreshing!</p>
                     </div>
-
                     <div class="image-item bg-gray-800 p-4 rounded-lg shadow-md text-center">
-                        <a href="https://via.placeholder.com/600x400/00FF00/000000?text=My+Pet" target="_blank" class="block">
-                            <img src="https://via.placeholder.com/300x200/00FF00/000000?text=My+Pet" alt="A cute picture of my pet" class="w-full h-auto rounded-lg mb-3 cursor-pointer object-cover">
+                        <a href="https://via.placeholder.com/600x400/0000FF/FFFFFF?text=Coding+Time" target="_blank" class="block">
+                            <img src="https://via.placeholder.com/300x200/0000FF/FFFFFF?text=Coding+Time" alt="Screenshot of coding" class="w-full h-auto rounded-lg mb-3 cursor-pointer object-cover">
                         </a>
-                        <p class="text-sm text-gray-300">My adorable pet being silly, as always!</p>
+                        <p class="text-sm text-gray-300">Late night coding session. Making progress on my website! :)</p>
                     </div>
-
                     </div>
             </div>
 
