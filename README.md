@@ -109,19 +109,26 @@
                         <a href="https://via.placeholder.com/600x400/FF0000/FFFFFF?text=My+First+Post" target="_blank" class="block">
                             <img src="https://i.ibb.co/39wBVBbc/Picsart-25-07-02-19-44-17-326.png" alt="Description of my first post" class="w-full h-auto rounded-lg mb-3 cursor-pointer object-cover">
                         </a>
-                        <p class="text-sm text-gray-300">SICK EDIT ! Made it bc I got into 50's music lolz XP! Click the image to see it bigger!</p>
+                        <p class="text-sm text-gray-300">SICK EDIT ! Made it bc I got into 50's music lolz XP!
                     </div>
                     <div class="image-item bg-gray-800 p-4 rounded-lg shadow-md text-center">
                         <a href="https://via.placeholder.com/600x400/00FF00/000000?text=Nature+Walk" target="_blank" class="block">
-                            <img src="https://via.placeholder.com/300x200/00FF00/000000?text=Nature+Walk" alt="Picture from a nature walk" class="w-full h-auto rounded-lg mb-3 cursor-pointer object-cover">
+                            <img src="https://i.ibb.co/jZjZxGjw/Picsart-25-06-20-00-52-08-352.jpg" alt="Picture from a nature walk" class="w-full h-auto rounded-lg mb-3 cursor-pointer object-cover">
                         </a>
-                        <p class="text-sm text-gray-300">Enjoyed a peaceful nature walk today. So refreshing!</p>
+                        <p class="text-sm text-gray-300">IM IN A COMPUTER 0O0 OMGG!!!</p>
                     </div>
                     <div class="image-item bg-gray-800 p-4 rounded-lg shadow-md text-center">
                         <a href="https://via.placeholder.com/600x400/0000FF/FFFFFF?text=Coding+Time" target="_blank" class="block">
-                            <img src="https://via.placeholder.com/300x200/0000FF/FFFFFF?text=Coding+Time" alt="Screenshot of coding" class="w-full h-auto rounded-lg mb-3 cursor-pointer object-cover">
+                            <img src="https://i.ibb.co/yBh41rd7/IMG20250610143513.jpg" alt="Screenshot of coding" class="w-full h-auto rounded-lg mb-3 cursor-pointer object-cover">
                         </a>
-                        <p class="text-sm text-gray-300">Late night coding session. Making progress on my website! :)</p>
+                        <p class="text-sm text-gray-300">Self portrait I drew of myself. I love to draw myself A lot lolz XD!</p>
+                    </div>
+                     <div class="image-gallery grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
+                    <div class="image-item bg-gray-800 p-4 rounded-lg shadow-md text-center">
+                        <a href="https://via.placeholder.com/600x400/FF0000/FFFFFF?text=My+First+Post" target="_blank" class="block">
+                            <img src="https://i.ibb.co/39wBVBbc/Picsart-25-07-02-19-44-17-326.png" alt="Description of my first post" class="w-full h-auto rounded-lg mb-3 cursor-pointer object-cover">
+                        </a>
+                        <p class="text-sm text-gray-300">SICK EDIT ! Made it bc I got into 50's music lolz XP!
                     </div>
                     </div>
             </div>
