@@ -113,7 +113,8 @@
 
         <nav class="flex justify-center p-4 border-b border-gray-300">
             <button class="tab-button px-6 py-3 mx-2 rounded-lg text-lg font-medium transition-colors duration-200 focus:outline-none" data-tab="home">Home</button>
-            <button class="tab-button px-6 py-3 mx-2 rounded-lg text-lg font-medium transition-colors duration-200 focus:outline-none" data-tab="about">Posts</button>
+            <button class="tab-button px-6 py-3 mx-2 rounded-lg text-lg font-medium transition-colors duration-200 focus:outline-none" data-tab="about">My Art</button>
+            <button class="tab-button px-6 py-3 mx-2 rounded-lg text-lg font-medium transition-colors duration-200 focus:outline-none" data-tab="community-art">Community Art</button>
             <button class="tab-button px-6 py-3 mx-2 rounded-lg text-lg font-medium transition-colors duration-200 focus:outline-none" data-tab="music">My Music</button>
             <button class="tab-button px-6 py-3 mx-2 rounded-lg text-lg font-medium transition-colors duration-200 focus:outline-none" data-tab="contact">Socials</button>
         </nav>
@@ -165,6 +166,36 @@
                 </div>
             </div>
 
+            <div id="community-art" class="tab-content">
+                <h2 class="text-3xl font-semibold mb-4" style="background-color:darkgreen; color:white; padding: 0.5rem; border-radius: 0.5rem;">Awesome Art from Other Creators!</h2>
+                <p class="leading-relaxed mb-4">
+                    Here's a space dedicated to cool art, photos, or creations from friends, artists I admire, or anyone who wants to share! If you'd like your art featured, let me know on my socials!
+                </p>
+                
+                <div class="image-gallery grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
+                    <div class="image-item bg-gray-800 p-4 rounded-lg shadow-md text-center">
+                        <a href="YOUR_COMMUNITY_ART_IMAGE_URL_HERE.jpg" target="_blank" class="block">
+                            <img src="YOUR_COMMUNITY_ART_IMAGE_URL_HERE.jpg" alt="Description of Community Art" class="w-full h-auto rounded-lg mb-3 cursor-pointer object-cover">
+                        </a>
+                        <p class="text-sm text-gray-300">Description of this awesome community art. Give credit here!</p>
+                    </div>
+
+                    <div class="image-item bg-gray-800 p-4 rounded-lg shadow-md text-center">
+                        <a href="https://i.ibb.co/jZmZxGjw/example-community-art-2.jpg" target="_blank" class="block">
+                            <img src="https://i.ibb.co/jZmZxGjw/example-community-art-2.jpg" alt="Cool abstract piece by [Artist Name]" class="w-full h-auto rounded-lg mb-3 cursor-pointer object-cover">
+                        </a>
+                        <p class="text-sm text-gray-300">Cool abstract piece by **[Artist Name]**!</p>
+                    </div>
+                    <div class="image-item bg-gray-800 p-4 rounded-lg shadow-md text-center">
+                        <a href="https://i.ibb.co/jZmZxGjw/example-community-art-3.jpg" target="_blank" class="block">
+                            <img src="https://i.ibb.co/jZmZxGjw/example-community-art-3.jpg" alt="A lovely photo by [Photographer Name]" class="w-full h-auto rounded-lg mb-3 cursor-pointer object-cover">
+                        </a>
+                        <p class="text-sm text-gray-300">A lovely photo by **[Photographer Name]**!</p>
+                    </div>
+
+                </div>
+            </div>
+
             <div id="music" class="tab-content">
                 <h3 class="text-3xl font-semibold mb-4" style="background-color:firebrick; color:white; padding: 0.5rem; border-radius: 0.5rem;">Just all the music I Love!! heheer</h3>
                 <p class="leading-relaxed mb-4">Bands: Green day (for life XD), Ultra Q, Misfits,My chemical romance, studio Killers, Three days grace, and panic at the disco! Artist: Demi lovato, Billie joe armstrong, Britany spears, 6arelyhuman, lady gaga, darren styles, jeffree star, but I dont remember right now XD. Heres a few albums That describe me in the moment!</p>
@@ -172,19 +203,19 @@
                 <div class="spotify-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
                     <div class="bg-gray-800 p-4 rounded-lg shadow-md">
                         <h4 class="text-xl font-semibold mb-2 text-center">My Current Mood Playlist</h4>
-                        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/56Xxj4tGzN9smTgEkKdVqI?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/4" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
                         <p class="text-sm text-gray-300 mt-2 text-center">I Like to dance!.</p>
                     </div>
 
                     <div class="bg-gray-800 p-4 rounded-lg shadow-md">
                         <h4 class="text-xl font-semibold mb-2 text-center">Favorite Album Right Now</h4>
-                        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/71rrqHKVkUFx2CSVfxrrLs?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/5" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
                         <p class="text-sm text-gray-300 mt-2 text-center">Lokey 1 of Green days best albums! with dirty and dancey lyrics!</p>
                     </div>
 
                     <div class="bg-gray-800 p-4 rounded-lg shadow-md">
                         <h4 class="text-xl font-semibold mb-2 text-center">Song on Repeat</h4>
-                        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5xvlLWyuOZE3bVw4N3KsTF?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
                         <p class="text-sm text-gray-300 mt-2 text-center">Honstely this song is sad... but one of the best to me personaly by 6arelyhuman!.</p>
                     </div>
 
@@ -198,7 +229,7 @@
                 </p>
                 <ul class="space-y-2">
                     <li><strong>Instagram:</strong> <a href="https://www.instagram.com/lonelyperson0128/" class="text-blue-400 hover:underline">https://www.instagram.com/lonelyperson0128/</a></li>
-                    <li><strong>Youtube:</strong> <a href="https://www.youtube.com/@Lonelypersons/shorts" target="_blank" class="text-blue-400 hover:underline">https://www.youtube.com/@Lonelypersons/shorts</a></li>
+                    <li><strong>Youtube:</strong> <a href="https://www.youtube.com/channel/UC-your-youtube-channel-id" target="_blank" class="text-blue-400 hover:underline">https://www.youtube.com/channel/UC-your-youtube-channel-id</a></li>
                     <li><strong>Spacehey:</strong> <a href="https://spacehey.com/greendaysnumber1fanxp" target="_blank" class="text-blue-400 hover:underline">https://spacehey.com/greendaysnumber1fanxp</a></li>
                 </ul>
             </div>
