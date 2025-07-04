@@ -186,6 +186,7 @@
                         </a>
                         <p class="text-sm text-gray-300">Cool abstract piece by **[Artist Name]**!</p>
                     </div>
+                    
                     <div class="image-item bg-gray-800 p-4 rounded-lg shadow-md text-center">
                         <a href="https://i.ibb.co/jZmZxGjw/example-community-art-3.jpg" target="_blank" class="block">
                             <img src="https://i.ibb.co/jZmZxGjw/example-community-art-3.jpg" alt="A lovely photo by [Photographer Name]" class="w-full h-auto rounded-lg mb-3 cursor-pointer object-cover">
