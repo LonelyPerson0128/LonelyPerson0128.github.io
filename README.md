@@ -204,19 +204,19 @@
                 <div class="spotify-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
                     <div class="bg-gray-800 p-4 rounded-lg shadow-md">
                         <h4 class="text-xl font-semibold mb-2 text-center">My Current Mood Playlist</h4>
-                        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/4" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/56Xxj4tGzN9smTgEkKdVqI?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
                         <p class="text-sm text-gray-300 mt-2 text-center">I Like to dance!.</p>
                     </div>
 
                     <div class="bg-gray-800 p-4 rounded-lg shadow-md">
                         <h4 class="text-xl font-semibold mb-2 text-center">Favorite Album Right Now</h4>
-                        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/5" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/71rrqHKVkUFx2CSVfxrrLs?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
                         <p class="text-sm text-gray-300 mt-2 text-center">Lokey 1 of Green days best albums! with dirty and dancey lyrics!</p>
                     </div>
 
                     <div class="bg-gray-800 p-4 rounded-lg shadow-md">
                         <h4 class="text-xl font-semibold mb-2 text-center">Song on Repeat</h4>
-                        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                       <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4A96t6zxkRfmFd1ky7Orkv?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
                         <p class="text-sm text-gray-300 mt-2 text-center">Honstely this song is sad... but one of the best to me personaly by 6arelyhuman!.</p>
                     </div>
 
