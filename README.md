@@ -78,7 +78,7 @@
                 <p class="text-gray-600 leading-relaxed">
                     Use the tabs above to navigate through my page!:D
                 </p>
-                <img src="https://imgur.com/puG6st9" width="300" height="200"/> 
+                <img src="https://i.ibb.co/9mvrbK41/puG6st9.jpg" width="300" height="200"/> 
             </div>
 
             <!-- About Me Content - User's "About me!" content -->
