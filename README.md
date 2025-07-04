@@ -162,14 +162,14 @@
             </div>
 
             <div id="contact" class="tab-content">
-                <h2 class="text-3xl font-semibold mb-4">📧 Get in Touch!</h2>
+                <h2 class="text-3xl font-semibold mb-4">Where to follow me at!</h2>
                 <p class="leading-relaxed mb-4">
-                    I'm always open to new opportunities and collaborations. Feel free to reach out to me via email or connect on social media.
+                   Y'all can message me if y'all want! These places are where my art and post are! :D
                 </p>
                 <ul class="space-y-2">
-                    <li><strong>Email:</strong> <a href="mailto:your.email@example.com" class="text-blue-400 hover:underline">your.email@example.com</a></li>
-                    <li><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/yourprofile" target="_blank" class="text-blue-400 hover:underline">linkedin.com/in/yourprofile</a></li>
-                    <li><strong>GitHub:</strong> <a href="https://github.com/yourusername" target="_blank" class="text-blue-400 hover:underline">github.com/yourusername</a></li>
+                    <li><strong>Instagram:</strong> <a href="https://www.instagram.com/lonelyperson0128/" class="text-blue-400 hover:underline">https://www.instagram.com/lonelyperson0128/</a></li>
+                    <li><strong>Youtube:</strong> <a href="https://www.youtube.com/@Lonelypersons/shorts" target="_blank" class="text-blue-400 hover:underline">https://www.youtube.com/@Lonelypersons/shorts</a></li>
+                    <li><strong>Spacehey:</strong> <a href="https://spacehey.com/greendaysnumber1fanxp" target="_blank" class="text-blue-400 hover:underline">https://spacehey.com/greendaysnumber1fanxp</a></li>
                 </ul>
             </div>
         </div>
