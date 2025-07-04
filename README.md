@@ -56,7 +56,7 @@
         <!-- Header Section - Modified to user's content and style -->
         <header class="bg-gradient-to-r from-indigo-500 to-purple-600 p-6 text-white text-center rounded-t-xl">
             <h1 class="text-4xl font-bold mb-2" style="background-color:firebrick;">Hii welcome people :D!</h1>
-            <p class="text-lg">Some things about me :).</p>
+            <p class="text-lg">A page That still is in a (WIP :P).</p>
         </header>
 
         <!-- Tab Navigation -->
@@ -71,14 +71,14 @@
         <div class="p-8">
             <!-- Home Content -->
             <div id="home" class="tab-content active">
-                <h2 class="text-3xl font-semibold text-gray-800 mb-4">🏠 Welcome!</h2>
+                <h2 class="text-3xl font-semibold text-gray-800 mb-4">Welcome Lovelys to a page I'm trying to fix X_X!</h2>
                 <p class="text-gray-600 leading-relaxed mb-4">
-                    This is the main page of my website. Here you'll find a brief introduction to my interests.
+                    This website will be Ig silly pics of me, Silly blogs, and also my music interest :P
                 </p>
                 <p class="text-gray-600 leading-relaxed">
-                    Use the tabs above to navigate through my page!
+                    Use the tabs above to navigate through my page!:D
                 </p>
-                <img src="https://placehold.co/600x300/e0e7ff/4f46e5?text=Welcome+Image" alt="Welcome Placeholder" class="w-full h-auto rounded-lg mt-6 shadow-md">
+                <img src="[https://placehold.co/600x300/e0e7ff/4f46e5?text=Welcome+Image](https://i.imgur.com/puG6st9.jpeg)" alt="Welcome Placeholder" class="w-full h-auto rounded-lg mt-6 shadow-md">
             </div>
 
             <!-- About Me Content - User's "About me!" content -->
