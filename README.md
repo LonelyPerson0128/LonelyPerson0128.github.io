@@ -13,7 +13,7 @@
         body {
             font-family: 'Inter', sans-serif;
             /* User's background image */
-            background-image: url('https://i.pinimg.com/564x/3e/26/5f/3e265f3b290a7e8615a5bb7194cabe78.jpg');
+            background-image: url('https://i.pinimg.com/originals/2e/c8/1e/2ec81e1517a75592dd347207fa748d78.gif');
             background-size: cover; /* Ensure the image covers the entire background */
             background-attachment: fixed; /* Keep the background image fixed when scrolling */
             background-position: center; /* Center the background image */
