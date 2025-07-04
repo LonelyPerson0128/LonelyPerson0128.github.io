@@ -33,7 +33,7 @@
         }
         /* Style for active tab button */
         .tab-button.active {
-            background-color: #00ff1a; /* Indigo 600 */
+            background-color: #00ff1a; /* This is a vibrant green */
             color: black;
         }
         /* Style for the footer to ensure visibility and proper placement */
@@ -103,7 +103,30 @@
             <div id="about" class="tab-content">
                 <h2 class="text-3xl font-semibold mb-4" style="background-color:firebrick; color:white; padding: 0.5rem; border-radius: 0.5rem;">About me!</h2>
                 <p class="leading-relaxed mb-4">I Like to listen to music ofc! Eat food ;-; Yes im guilty of it! also love to post on insa and kinda code on spacehey!!</p>
-                <img src="https://placehold.co/600x300/ffe0e7/e54f46?text=About+Me+Image" alt="About Me Placeholder" class="w-full h-auto rounded-lg mt-6 shadow-md">
+                
+                <div class="image-gallery grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
+                    <div class="image-item bg-gray-800 p-4 rounded-lg shadow-md text-center">
+                        <a href="https://via.placeholder.com/600x400/FF0000/FFFFFF?text=My+First+Post" target="_blank" class="block">
+                            <img src="https://via.placeholder.com/300x200/FF0000/FFFFFF?text=My+First+Post" alt="Description of my first post" class="w-full h-auto rounded-lg mb-3 cursor-pointer object-cover">
+                        </a>
+                        <p class="text-sm text-gray-300">This is a description of my first amazing photo! Click to see more.</p>
+                    </div>
+
+                    <div class="image-item bg-gray-800 p-4 rounded-lg shadow-md text-center">
+                        <a href="https://via.placeholder.com/600x400/0000FF/FFFFFF?text=Travel+Adventures" target="_blank" class="block">
+                            <img src="https://via.placeholder.com/300x200/0000FF/FFFFFF?text=Travel+Adventures" alt="Description of my travel adventures" class="w-full h-auto rounded-lg mb-3 cursor-pointer object-cover">
+                        </a>
+                        <p class="text-sm text-gray-300">Here are some memories from my recent travels!</p>
+                    </div>
+
+                    <div class="image-item bg-gray-800 p-4 rounded-lg shadow-md text-center">
+                        <a href="https://via.placeholder.com/600x400/00FF00/000000?text=My+Pet" target="_blank" class="block">
+                            <img src="https://via.placeholder.com/300x200/00FF00/000000?text=My+Pet" alt="A cute picture of my pet" class="w-full h-auto rounded-lg mb-3 cursor-pointer object-cover">
+                        </a>
+                        <p class="text-sm text-gray-300">My adorable pet being silly, as always!</p>
+                    </div>
+
+                    </div>
             </div>
 
             <div id="music" class="tab-content">
