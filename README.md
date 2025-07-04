@@ -55,8 +55,8 @@
     <div class="w-full max-w-4xl bg-white rounded-xl shadow-lg overflow-hidden bg-opacity-90">
         <!-- Header Section - Modified to user's content and style -->
         <header class="bg-gradient-to-r from-indigo-500 to-purple-600 p-6 text-white text-center rounded-t-xl">
-            <h1 class="text-4xl font-bold mb-2" style="background-color:firebrick;">Welcome to my page!</h1>
-            <p class="text-lg">Exploring my interests and passions.</p>
+            <h1 class="text-4xl font-bold mb-2" style="background-color:firebrick;">Hii welcome people :D!</h1>
+            <p class="text-lg">Some things about me :).</p>
         </header>
 
         <!-- Tab Navigation -->
