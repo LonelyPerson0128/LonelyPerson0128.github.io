@@ -35,8 +35,8 @@
         }
         /* Style for active tab button */
         .tab-button.active {
-            background-color: #4f46e5; /* Indigo 600 */
-            color: white;
+            background-color: #82001c; /* Indigo 600 */
+            color: black;
         }
         /* Style for the footer to ensure visibility and proper placement */
         footer {
