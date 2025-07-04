@@ -102,7 +102,7 @@
 
             <div id="about" class="tab-content">
                 <h2 class="text-3xl font-semibold mb-4" style="background-color:firebrick; color:white; padding: 0.5rem; border-radius: 0.5rem;">Some pictures and what they are about :)! I love to edit and make art!</h2>
-                <p class="leading-relaxed mb-4">I Like to listen to music ofc! Eat food ;-; Yes im guilty of it! also love to post on insa and kinda code on spacehey!!</p>
+                <p class="leading-relaxed mb-4">Photoshop is LIFE!</p>
                 
                 <div class="image-gallery grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
                     <div class="image-item bg-gray-800 p-4 rounded-lg shadow-md text-center">
@@ -123,13 +123,7 @@
                         </a>
                         <p class="text-sm text-gray-300">Self portrait I drew of myself. I love to draw myself A lot lolz XD!</p>
                     </div>
-                     <div class="image-gallery grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
-                    <div class="image-item bg-gray-800 p-4 rounded-lg shadow-md text-center">
-                        <a href="https://via.placeholder.com/600x400/FF0000/FFFFFF?text=My+First+Post" target="_blank" class="block">
-                            <img src="https://i.ibb.co/39wBVBbc/Picsart-25-07-02-19-44-17-326.png" alt="Description of my first post" class="w-full h-auto rounded-lg mb-3 cursor-pointer object-cover">
-                        </a>
-                        <p class="text-sm text-gray-300">SICK EDIT ! Made it bc I got into 50's music lolz XP!
-                    </div>
+                    
                     </div>
             </div>
 
