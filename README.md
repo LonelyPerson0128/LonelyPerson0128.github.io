@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My GitHub Website</title>
-    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="icon" type="image/x-xicon" href="/images/favicon.ico">
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        /* Custom styles for the Inter font and basic body styling */
+        /* Custom styles for the Creepster font and basic body styling */
         body {
             font-family: "Creepster", system-ui;
             /* User's background image */
@@ -61,16 +61,41 @@
         .main-content-area {
             background-color: black;
             color: white; /* Ensure text is visible on black background */
+            position: relative; /* Needed for positioning the music player */
         }
 
         /* Styles for the customizable banner */
         .custom-banner {
             background-image: url('https://i.pinimg.com/736x/f6/c1/05/f6c10582e6996bd489ed67852b00ec71.jpg');
-            /* You can uncomment and modify the lines below to use an image instead */
-            /* background-image: url('YOUR_IMAGE_URL_HERE'); */
-            /* background-size: cover; */
-            /* background-position: center; */
-            /* background-repeat: no-repeat; */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        /* Styles for the music player */
+        .music-player {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black */
+            padding: 0.5rem 1rem;
+            border-radius: 0.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            z-index: 10; /* Ensure it stays on top of other content */
+        }
+        .music-player button {
+            background-color: #00ff1a;
+            color: black;
+            padding: 0.25rem 0.75rem;
+            border-radius: 0.25rem;
+            font-size: 0.875rem;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+        .music-player button:hover {
+            background-color: #00cc14;
         }
     </style>
 </head>
@@ -80,6 +105,11 @@
             <h1 class="text-4xl font-bold mb-2">Hii welcome people :D!</h1>
             <p class="text-lg">A page That still is in a (WIP :P).</p>
         </header>
+
+        <div class="music-player">
+            <audio id="background-music" src="YOUR_MUSIC_FILE_URL_HERE.mp3" loop muted></audio>
+            <button id="music-toggle-button">Play Music</button>
+        </div>
 
         <nav class="flex justify-center p-4 border-b border-gray-300">
             <button class="tab-button px-6 py-3 mx-2 rounded-lg text-lg font-medium transition-colors duration-200 focus:outline-none" data-tab="home">Home</button>
@@ -154,7 +184,7 @@
 
                     <div class="bg-gray-800 p-4 rounded-lg shadow-md">
                         <h4 class="text-xl font-semibold mb-2 text-center">Song on Repeat</h4>
-                       <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5xvlLWyuOZE3bVw4N3KsTF?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5xvlLWyuOZE3bVw4N3KsTF?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
                         <p class="text-sm text-gray-300 mt-2 text-center">Honstely this song is sad... but one of the best to me personaly by 6arelyhuman!.</p>
                     </div>
 
@@ -164,7 +194,7 @@
             <div id="contact" class="tab-content">
                 <h2 class="text-3xl font-semibold mb-4">Where to follow me at!</h2>
                 <p class="leading-relaxed mb-4">
-                   Y'all can message me if y'all want! These places are where my art and post are! :D
+                    Y'all can message me if y'all want! These places are where my art and post are! :D
                 </p>
                 <ul class="space-y-2">
                     <li><strong>Instagram:</strong> <a href="https://www.instagram.com/lonelyperson0128/" class="text-blue-400 hover:underline">https://www.instagram.com/lonelyperson0128/</a></li>
@@ -184,6 +214,8 @@
         document.addEventListener('DOMContentLoaded', () => {
             const tabButtons = document.querySelectorAll('.tab-button');
             const tabContents = document.querySelectorAll('.tab-content');
+            const backgroundMusic = document.getElementById('background-music');
+            const musicToggleButton = document.getElementById('music-toggle-button');
 
             // Function to show a specific tab
             const showTab = (tabId) => {
@@ -205,6 +237,27 @@
                     showTab(tabId);
                 });
             });
+
+            // Music player logic
+            musicToggleButton.addEventListener('click', () => {
+                if (backgroundMusic.paused) {
+                    backgroundMusic.play();
+                    musicToggleButton.textContent = 'Pause Music';
+                } else {
+                    backgroundMusic.pause();
+                    musicToggleButton.textContent = 'Play Music';
+                }
+                // Also unmute if it was muted for autoplay
+                backgroundMusic.muted = false;
+            });
+
+            // Handle autoplay with mute for better browser compatibility
+            // Try to play when the page loads, but muted
+            backgroundMusic.play().catch(error => {
+                // Autoplay failed (e.g., user didn't interact) - no big deal, button still works
+                console.log('Autoplay was prevented, user can click play button.', error);
+            });
+
 
             // Initially show the 'home' tab when the page loads
             showTab('home');
