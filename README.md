@@ -65,7 +65,7 @@
 
         /* Styles for the customizable banner */
         .custom-banner {
-            background-color: purple; /* Default purple background */
+            background-image: url('https://i.pinimg.com/736x/f6/c1/05/f6c10582e6996bd489ed67852b00ec71.jpg');
             /* You can uncomment and modify the lines below to use an image instead */
             /* background-image: url('YOUR_IMAGE_URL_HERE'); */
             /* background-size: cover; */
