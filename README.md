@@ -125,20 +125,40 @@
                         </a>
                         <p class="text-sm text-gray-300">Self portrait I drew of myself. I love to draw myself A lot lolz XD!</p>
                     </div>
-<div class="image-item bg-gray-800 p-4 rounded-lg shadow-md text-center">
-    <a href="https://i.ibb.co/xSmy656y/IMG20250608180014.jpg" target="_blank" class="block">
-        <img src="https://i.ibb.co/xSmy656y/IMG20250608180014.jpg" alt="A description of this image" class="w-full h-auto rounded-lg mb-3 cursor-pointer object-cover">
-    </a>
-    <p class="text-sm text-gray-300">Me and my friend in a GoodwillXD! We were taking dumb pics with the suits XD!</p>
-</div>
-                    
+
+                    <div class="image-item bg-gray-800 p-4 rounded-lg shadow-md text-center">
+                        <a href="https://i.ibb.co/xSmy656y/IMG20250608180014.jpg" target="_blank" class="block">
+                            <img src="https://i.ibb.co/xSmy656y/IMG20250608180014.jpg" alt="Me and my friend in a GoodwillXD! We were taking dumb pics with the suits XD!" class="w-full h-auto rounded-lg mb-3 cursor-pointer object-cover">
+                        </a>
+                        <p class="text-sm text-gray-300">Me and my friend in a GoodwillXD! We were taking dumb pics with the suits XD!</p>
+                    </div>
                 </div>
             </div>
 
             <div id="music" class="tab-content">
                 <h3 class="text-3xl font-semibold mb-4" style="background-color:firebrick; color:white; padding: 0.5rem; border-radius: 0.5rem;">Just all the music I Love!! heheer</h3>
-                <p class="leading-relaxed mb-4">Bands: Green day (for life XD), Ultra Q, Misfits,My chemical romance, studio Killers, Three days grace, and panic at the disco! Artist: Demi lovato, Billie joe armstrong, Britany spears, 6arelyhuman, lady gaga,  darren styles, jeffree star, but I dont remember right now XD. Heres a few albums That describe me in the moment!</p>
-                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/2Oeyrt4oIYWmsTG3YZkkuc?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                <p class="leading-relaxed mb-4">Bands: Green day (for life XD), Ultra Q, Misfits,My chemical romance, studio Killers, Three days grace, and panic at the disco! Artist: Demi lovato, Billie joe armstrong, Britany spears, 6arelyhuman, lady gaga, darren styles, jeffree star, but I dont remember right now XD. Heres a few albums That describe me in the moment!</p>
+                
+                <div class="spotify-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
+                    <div class="bg-gray-800 p-4 rounded-lg shadow-md">
+                        <h4 class="text-xl font-semibold mb-2 text-center">My Current Mood Playlist</h4>
+                        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/37i9dQZF1DZ06EvO2B1F0h?utm_source=generator" width="100%" height="200" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                        <p class="text-sm text-gray-300 mt-2 text-center">This playlist captures my current vibe.</p>
+                    </div>
+
+                    <div class="bg-gray-800 p-4 rounded-lg shadow-md">
+                        <h4 class="text-xl font-semibold mb-2 text-center">Favorite Album Right Now</h4>
+                        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/4SZc9w1G9D0qf63eE9F88f?utm_source=generator" width="100%" height="200" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                        <p class="text-sm text-gray-300 mt-2 text-center">Can't stop listening to this!</p>
+                    </div>
+
+                    <div class="bg-gray-800 p-4 rounded-lg shadow-md">
+                        <h4 class="text-xl font-semibold mb-2 text-center">Song on Repeat</h4>
+                        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2Ifj5F2Q9E5w6s8xU1u5bC?utm_source=generator" width="100%" height="200" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                        <p class="text-sm text-gray-300 mt-2 text-center">This track always gets me hyped.</p>
+                    </div>
+
+                    </div>
             </div>
 
             <div id="contact" class="tab-content">
