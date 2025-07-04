@@ -136,8 +136,8 @@
             </div>
 
             <div id="music" class="tab-content">
-                <h3 class="text-3xl font-semibold mb-4" style="background-color:firebrick; color:white; padding: 0.5rem; border-radius: 0.5rem;">Type of music I love!</h3>
-                <p class="leading-relaxed mb-4">Bands: Green day (for life XD), Ultra Q, Misfits, And My chemical romance Artist: Demi lovato, Billie joe armstrong, Britany spears, 6arelyhuman, and Britany manson Theres probaly more, but I dont remember right now XD, but if u want to listen to my music! Heres the playlist!</p>
+                <h3 class="text-3xl font-semibold mb-4" style="background-color:firebrick; color:white; padding: 0.5rem; border-radius: 0.5rem;">Just all the music I Love!! heheer</h3>
+                <p class="leading-relaxed mb-4">Bands: Green day (for life XD), Ultra Q, Misfits,My chemical romance, studio Killers, Three days grace, and panic at the disco! Artist: Demi lovato, Billie joe armstrong, Britany spears, 6arelyhuman, lady gaga,  darren styles, jeffree star, but I dont remember right now XD. Heres a few albums That describe me in the moment!</p>
                 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/2Oeyrt4oIYWmsTG3YZkkuc?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
             </div>
 
