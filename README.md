@@ -54,8 +54,8 @@
 <body>
     <div class="w-full max-w-4xl bg-white rounded-xl shadow-lg overflow-hidden bg-opacity-90">
         <!-- Header Section - Modified to user's content and style -->
-        <header class="bg-gradient-to-r from-indigo-500 to-purple-600 p-6 text-white text-center rounded-t-xl">
-            <h1 class="text-4xl font-bold mb-2" style="background-color:firebrick;">Hii welcome people :D!</h1>
+        <header class="bg-gradient-to-r from-black-500 to-black-600 p-6 text-white text-center rounded-t-xl">
+            <h1 class="text-4xl font-bold mb-2" style="background-color: ;">Hii welcome people :D!</h1>
             <p class="text-lg">A page That still is in a (WIP :P).</p>
         </header>
 
