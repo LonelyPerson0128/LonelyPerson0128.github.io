@@ -78,7 +78,7 @@
                 <p class="text-gray-600 leading-relaxed">
                     Use the tabs above to navigate through my page!:D
                 </p>
-                <img src="[https://placehold.co/600x300/e0e7ff/4f46e5?text=Welcome+Image](https://i.imgur.com/puG6st9.jpeg)" alt="Welcome Placeholder" class="w-full h-auto rounded-lg mt-6 shadow-md">
+                <img src="https://blinkies.neocities.org/b/geocities/web.archive.org---web---20090728122216---http:------www.geocities.com---mky_409---thcookieblinkie.gif" width="150" height="20"/> 
             </div>
 
             <!-- About Me Content - User's "About me!" content -->
