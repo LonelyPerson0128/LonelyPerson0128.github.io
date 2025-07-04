@@ -78,7 +78,7 @@
                 <p class="text-gray-600 leading-relaxed">
                     Use the tabs above to navigate through my page!:D
                 </p>
-                <img src="https://blinkies.neocities.org/b/geocities/web.archive.org---web---20090728122216---http:------www.geocities.com---mky_409---thcookieblinkie.gif" width="150" height="20"/> 
+                <img src="https://imgur.com/puG6st9" width="150" height="20"/> 
             </div>
 
             <!-- About Me Content - User's "About me!" content -->
