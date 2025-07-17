@@ -173,10 +173,10 @@
                 
                 <div class="image-gallery grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
                     <div class="image-item bg-gray-800 p-4 rounded-lg shadow-md text-center">
-                        <a href="YOUR_COMMUNITY_ART_IMAGE_URL_HERE.jpg" target="_blank" class="block">
-                            <img src="YOUR_COMMUNITY_ART_IMAGE_URL_HERE.jpg" alt="Description of Community Art" class="w-full h-auto rounded-lg mb-3 cursor-pointer object-cover">
+                        <a href="https://i.ibb.co/cXFWdf3V/6832750-2172237-mrkha-you-can-relax-my-friend-65ddcfadc76ac366cdc48539236bf75d.webp" target="_blank" class="block">
+                            <img src="https://i.ibb.co/cXFWdf3V/6832750-2172237-mrkha-you-can-relax-my-friend-65ddcfadc76ac366cdc48539236bf75d.webp" alt="Description of Community Art" class="w-full h-auto rounded-lg mb-3 cursor-pointer object-cover">
                         </a>
-                        <p class="text-sm text-gray-300">Description of this awesome community art. Give credit here!</p>
+                        <p class="text-sm text-gray-300">Kewl pixel art from musical fan art : You can relax my friend! By:MrKha </p>
                     </div>
 
                     <div class="image-item bg-gray-800 p-4 rounded-lg shadow-md text-center">
