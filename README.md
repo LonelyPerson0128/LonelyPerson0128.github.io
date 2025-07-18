@@ -388,17 +388,17 @@
                     </div>
 
                     <div class="image-item bg-gray-800 p-4 rounded-lg shadow-md text-center fade-in">
-                        <a href="#" class="image-link block" data-img-src="https://via.placeholder.com/600x400/333/eee?text=Placeholder+Art+2" data-caption="Cool abstract piece by [Artist Name]">
-                            <img src="https://via.placeholder.com/600x400/333/eee?text=Placeholder+Art+2" alt="Cool abstract piece by [Artist Name]" class="w-full h-auto rounded-lg mb-3 cursor-pointer object-cover">
+                        <a href="#" class="image-link block" data-img-src="https://i.ibb.co/84TDZZ35/Senza-titolo-142-20250604002357.png" data-caption=" Cool digital drawing with a cool person! By: Barco!!">
+                            <img src="https://i.ibb.co/84TDZZ35/Senza-titolo-142-20250604002357.png" alt="Cool abstract piece by [Artist Name]" class="w-full h-auto rounded-lg mb-3 cursor-pointer object-cover">
                         </a>
-                        <p class="text-sm text-gray-300">Nothing yet</p>
+                        <p class="text-sm text-gray-300">Cool digital drawing with a cool person! By: Barco!!</p>
                     </div>
 
                     <div class="image-item bg-gray-800 p-4 rounded-lg shadow-md text-center fade-in">
-                        <a href="#" class="image-link block" data-img-src="https://via.placeholder.com/600x400/555/fff?text=Placeholder+Art+3" data-caption="A lovely photo by [Photographer Name]">
-                            <img src="https://via.placeholder.com/600x400/555/fff?text=Placeholder+Art+3" alt="A lovely photo by [Photographer Name]" class="w-full h-auto rounded-lg mb-3 cursor-pointer object-cover">
+                        <a href="#" class="https://i.ibb.co/DfT1GNvg/please-someone-remove-synthesize-me-from-me-NOW.png">
+                            <img src="https://i.ibb.co/DfT1GNvg/please-someone-remove-synthesize-me-from-me-NOW.png" alt="A lovely photo by [Photographer Name] " class="w-full h-auto rounded-lg mb-3 cursor-pointer object-cover">
                         </a>
-                        <p class="text-sm text-gray-300">Nothing yet</p>
+                        <p class="text-sm text-gray-300">Lovely Digital art made by: Alea</p>
                     </div>
 
                 </div>
