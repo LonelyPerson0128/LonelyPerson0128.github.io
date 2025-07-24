@@ -401,6 +401,16 @@
                         <p class="text-sm text-gray-300">Lovely Digital art made by: Alea</p>
                     </div>
 
+                               <div class="image-item bg-gray-800 p-4 rounded-lg shadow-md text-center fade-in">
+                        <a href="#" class="https://d2zia2w5autnlg.cloudfront.net/1251/667cc128ae07a-JzHv0KdnEX3agPzF">
+                            <img src="https://d2zia2w5autnlg.cloudfront.net/1251/667cc128ae07a-JzHv0KdnEX3agPzF" alt="A lovely photo by [Photographer Name] " class="w-full h-auto rounded-lg mb-3 cursor-pointer object-cover">
+                        </a>
+                        <p class="text-sm text-gray-300">Ah like the sketchy vibe from this cool digital art :D! made by : Kuma_Chan</p>
+                    </div>
+
+                     
+                   
+
                 </div>
             </div>
 
